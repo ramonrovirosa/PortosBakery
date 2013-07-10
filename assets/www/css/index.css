@@ -1,0 +1,25 @@
+.ui-page { 
+	background: #FFD040;
+}
+#header{
+    background: #351200;
+
+}
+
+.ui-btn{
+
+}
+
+#Hours,#EstimatedTime,#EstimatedDistance,#googleMapss,#googleMap,#map_back,#phoneButton{
+    margin: 10px 10px;
+
+}
+
+
+#map_back{
+    background: #351200;
+    border-radius: 10px;
+    padding: 1px 1px;
+}
+
+.ui-widget, .ui-widget-content, .ui-corner-all, .foo, .ui-draggable, .ui-resizable {background: #FFD040 !important}​

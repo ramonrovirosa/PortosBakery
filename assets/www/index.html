@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+
+
+    <!--<script src="cordova.js"></script>-->
+
+
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEwgYSteM9V3MEmCrdNQqTFXuF8rTBe6w&sensor=true">
+    </script>
+
+
+    <title>Porto's Bakery App</title>
+
+    <script>
+
+        var directionsDisplay;
+        var directionsService = new google.maps.DirectionsService();
+        var map;
+        var initialLocation;
+        var browserSupportFlag =  new Boolean();
+
+
+        function initialize()
+        {
+            directionsDisplay = new google.maps.DirectionsRenderer();
+            var Portos = new google.maps.LatLng( 34.150537, -118.255285);
+            var mapOptions = {
+                zoom:7,
+                mapTypeId: google.maps.MapTypeId.ROADMAP//,
+                //center: Portos
+            }
+            map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
+            directionsDisplay.setMap(map);
+
+            calcRoute();
+
+
+        }
+
+        var distanceToPortos;
+        var timeToPortos;
+
+        function calcRoute() {
+
+            if(navigator.geolocation) {
+
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+                    browserSupportFlag = true;
+                    var start =initialLocation;
+                    var end = new google.maps.LatLng(34.150537, -118.255285);
+
+                    var request = {
+                        origin:start,
+                        destination:end,
+                        travelMode: google.maps.DirectionsTravelMode.DRIVING
+                    };
+
+                    directionsService.route(request, function(response, status) {
+                        if (status == google.maps.DirectionsStatus.OK) {
+                            distanceToPortos = Math.floor(response.routes[0].legs[0].distance.value * 0.000621371);
+                            timeToPortos = response.routes[0].legs[0].duration.text;
+                            $('#EstimatedDistance span.ui-btn-text').text("Distance to Porto's: " + distanceToPortos + " miles" );
+                            $('#EstimatedTime span.ui-btn-text').text("Estimated Trip Time: " + timeToPortos);
+                            directionsDisplay.setDirections(response);
+                        }
+                    });
+
+                } );
+            }
+
+            var start = new google.maps.LatLng(34.150537 , -118.255285);
+            var end = new google.maps.LatLng(34.150537, -118.255285);
+
+            var request = {
+                origin:start,
+                destination:end,
+                travelMode: google.maps.DirectionsTravelMode.DRIVING
+            };
+
+            directionsService.route(request, function(response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    directionsDisplay.setDirections(response);
+                }
+            });
+
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+        $(document).ready(function(){
+            var d = new Date();
+            var day = d.getDay();
+            var minute = d.getMinutes();
+            var hour = d.getHours();
+            var hoursOfOperation = (day < 6) ? '6:30am-8:00pm' : '7:00am-6:00pm';
+            var tillClose = (day < 6) ? 20 - hour - 1 : 18 - hour -1;
+            var minutesTillClose = 60 - minute;
+            var closeText;
+            //Not Sunday during bakery hours
+            if(day<6){
+                if((hour > 7 || (hour == 6 && minute >30)) && hour < 20)
+                    closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes untill Porto's closes!";
+                else
+                    closeText = "Sorry Portos is closed.";
+
+            }
+            if(day==6){
+                //Sunday
+                if((hour > 7 ) && hour < 18)
+                    closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes untill Porto's closes!";
+                else
+                    closeText = "Sorry Porto's is closed.";
+
+            }
+
+
+
+            $('#todays_hours span.ui-btn-text').text("Today's Hours: " + hoursOfOperation);
+            $('#p_todays_hours').text(closeText);
+
+            var height = $('#Hours').height()*4 + 4*20 + $('#header').height();
+            //alert(height);
+
+            $("#googleMap").height($(document).height() - height);
+
+        });
+
+        function launchNativeMaps(){
+            window.location = "geo: 34.150537, -118.255285?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA;";
+        }
+
+
+    </script>
+
+</head>
+<body>
+<div data-role="page" id="index" onload="getLocation()">
+    <div data-role="header" style="margin-top:-5px;" id="header" >
+        <div>
+            <h3 align="center">Porto's Bakery</h3>
+        </div>
+        <a href="#popupMenu" data-rel="popup" data-role="button" data-theme="e" data-transition="slideup" class="ui-btn-right" data-icon="arrow-d" data-iconpos="right" style="margin-top:12px;">More</a>
+        <!--<a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="gear" data-theme="e">Actions...</a>-->
+        <div data-role="popup" id="popupMenu" data-theme="d">
+            <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
+                <li><a href="http://www.portosbakery.com/bakery/all?field_location_value_1=3">Menu</a></li>
+                <li><a href="contact.html" data-rel="dialog" >Contact</a></li>
+                <li><a href="http://www.portosbakery.com/">Porto's Website</a></li>
+                <li><a href="http://instagram.com/portosbakery">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <div data-role="collapsible" data-theme="e" data-content-theme="d" id="Hours">
+        <h3 id="todays_hours">Hours</h3>
+        <p  id="p_todays_hours"></p>
+    </div>
+
+    <div data-role="button" data-theme="e" data-mini="true" id="EstimatedTime">
+        <h3 id="aaa">Estimated Time to Portos</h3>
+    </div>
+
+    <div data-role="button" data-theme="e" data-mini="true" id="EstimatedDistance">
+        <h3 id="cc">Distance to Porto's</h3>
+    </div>
+
+
+    <div data-role="button" data-theme="e" data-mini="true" id="googleMapss" onClick=launchNativeMaps()>
+        <h3 id="eee">Google Maps Route</h3>
+        <!--<div id="googleMap" style="width:500px;height:380px;"></div>-->
+    </div>
+
+    <!--<a href="https://maps.google.com/?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA">open map</a>-->
+    <!--<a href="geo: 34.150537, -118.255285?q=PORTO'S+BAKERY,315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA;">Location here!</a>-->
+
+    <div id="map_back" data-theme="e">
+        <div id="googleMap" style="width:auto; height:10px; display: block;"></div>
+    </div>
+
+    <!--<div data-role="popup" id="popupBasic" data-theme="e">-->
+    <!--<p>Could Not Find Your Location!</p>-->
+    <!--</div>-->
+
+
+
+
+</div>
+
+</body>
+</html>
