@@ -6,11 +6,7 @@
 
 }
 
-.ui-btn{
-
-}
-
-#Hours,#EstimatedTime,#EstimatedDistance,#googleMapss,#googleMap,#map_back,#phoneButton,#bakeryMenu,#cakesMenu,#cafeMenu{
+#Hours,#EstimatedTime,#EstimatedDistance,#facebookButton, #googleMapss,#googleMap,#map_back,#phoneButton,#bakeryMenu,#cakesMenu,#cafeMenu{
     margin: 10px 10px;
 
 }

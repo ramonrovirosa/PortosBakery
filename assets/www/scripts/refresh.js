@@ -6,21 +6,10 @@
  * To change this template use File | Settings | File Templates.
  */
 $(function() {
-    $("#ang_button").click(function() {
-        $(location).attr('href',"Index_knockout.html");
+    $("#instaButton").click(function() {
+        $(location).attr('href',"instagram.html");
     });
-    $("#contacts").click(function() {
-        $(location).attr('href',"contacts/contacts.html");
-    });
-    $("#calendar_button").click(function() {
-        $(location).attr('href',"calendar/calendar.html");
-    });
-    $("#camera_button").click(function() {
-        $(location).attr('href',"camera/camera.html");
-    });
-    $("#date_Picker").click(function() {
-        $(location).attr('href',"calendar/calendar.html");
-    });
+
 
 
 });
