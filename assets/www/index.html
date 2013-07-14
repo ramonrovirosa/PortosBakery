@@ -103,24 +103,24 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
 
-
+            //sunday 0, monday 1, ...saturday 6
             var d = new Date();
             var day = d.getDay();
             var minute = d.getMinutes();
             var hour = d.getHours();
-            var hoursOfOperation = (day < 6) ? '6:30am-8:00pm' : '7:00am-6:00pm';
-            var tillClose = (day < 6) ? 20 - hour - 1 : 18 - hour -1;
+            var hoursOfOperation = (day > 0) ? '6:30am-8:00pm' : '7:00am-6:00pm';
+            var tillClose = (day > 0) ? 20 - hour - 1 : 18 - hour -1;
             var minutesTillClose = 60 - minute;
             var closeText;
             //Not Sunday during bakery hours
-            if(day<=6){
+            if(day>0){
                 if((hour >= 7 || (hour == 6 && minute >30)) && hour < 20)
                     closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes untill Porto's closes!";
                 else
                     closeText = "Sorry Portos is closed.";
 
             }
-            if(day==7){
+            if(day==0){
                 //Sunday
                 if((hour > 7 ) && hour < 18)
                     closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes until Porto's closes!";
