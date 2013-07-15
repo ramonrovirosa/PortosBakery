@@ -11,7 +11,7 @@
     <file path="/contact.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373487442913" ignored="false" />
     <file path="/instagram.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373482448001" ignored="false" />
     <file path="/jquery.instastream.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373481829377" ignored="false" />
-    <file path="/menu.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373482680695" ignored="false" />
+    <file path="/menu.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373915441090" ignored="false" />
     <file path="/package.json" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373561970230" ignored="false" />
     <file path="$PROJECT_DIR$/../../phoneCommentMongo/package.json" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373561970230" ignored="false" />
     <file path="$PROJECT_DIR$/../../phoneCommentMongo/server.js" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373564730494" ignored="false" />
@@ -34,13 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="37" selection-start="1067" selection-end="1067" vertical-scroll-proportion="1.1226416">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="35" column="37" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-0.65384614">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,10 +46,8 @@
       <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-24.846153">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,11 +61,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="menu.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="36" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-21.576923">
+            <state line="27" column="35" selection-start="876" selection-end="915" vertical-scroll-proportion="0.2642487">
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -88,11 +85,8 @@
       <file leaf-file-name="instagram.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="135" selection-start="1172" selection-end="1281" vertical-scroll-proportion="-6.9607844">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="40" column="135" selection-start="1172" selection-end="1281" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,7 +94,7 @@
       <file leaf-file-name="jquery.instastream.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.instastream.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-13.24">
+            <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,18 +115,18 @@
         <option value="$PROJECT_DIR$/assets/www/scripts/refresh.js" />
         <option value="$PROJECT_DIR$/assets/www/css/jquery.instastream.css" />
         <option value="$PROJECT_DIR$/assets/www/instagram.html" />
-        <option value="$PROJECT_DIR$/assets/www/menu.html" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/contact.html" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/menu.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2146" />
-    <option name="y" value="244" />
-    <option name="width" value="1152" />
-    <option name="height" value="800" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,11 +236,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../phoneCommentMongo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -279,6 +273,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" name="Default" comment="" />
@@ -288,13 +299,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2146" y="244" width="1152" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34231806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20084344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -370,21 +381,62 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="58" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/refresh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="135" selection-start="1172" selection-end="1281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.instastream.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="179" column="95" selection-start="6608" selection-end="6608" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="38" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -404,36 +456,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="135" selection-start="1172" selection-end="1281" vertical-scroll-proportion="-6.9607844">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="40" column="135" selection-start="1172" selection-end="1281" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.instastream.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-13.24">
+        <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-24.846153">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/menu.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-21.576923">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="35" column="37" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-0.65384614">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,11 +489,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="1067" selection-end="1067" vertical-scroll-proportion="1.1226416">
+        <state line="27" column="35" selection-start="876" selection-end="915" vertical-scroll-proportion="0.2642487">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
