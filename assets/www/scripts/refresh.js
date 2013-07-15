@@ -10,6 +10,9 @@ $(function() {
         $(location).attr('href',"instagram.html");
     });
 
+    $("#menuButton").click(function() {
+        $(location).attr('href'," menu.html");
+    });
 
 
 });
