@@ -7,6 +7,7 @@
  */
 $(function() {
     $("#instaButton").click(function() {
+        alert("hello");
         $(location).attr('href',"instagram.html");
     });
 
@@ -15,4 +16,7 @@ $(function() {
     });
 
 
+    $(document).on("pagebeforeshow", "#index", function() {
+        $(location).attr('href'," index.html");
+    });
 });
