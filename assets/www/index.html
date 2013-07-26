@@ -137,23 +137,24 @@
 
             $('#p_todays_hours').text(closeText);
 
-            var height = $('#Hours').height()*4 + 3*20 + $('#header').height();
+            var height = $('#Hours').height()*4 + 2*20 + $('#header').height();
             //alert(height);
 
             $("#googleMap").height($(document).height() - height);
 
         });
-
         function launchNativeMaps(){
             window.location = "geo: 34.150537, -118.255285?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA;";
         }
+
+
 
 
     </script>
 
 </head>
 <body>
-<div data-role="page" id="index" onload="getLocation()">
+<div data-role="page" id="index">
     <div data-role="header" style="margin-top:-5px;" id="header" >
         <div>
             <h3 align="center">Porto's Bakery</h3>
@@ -171,9 +172,6 @@
     </div>
 
 
-
-
-
     <div data-role="collapsible" data-theme="e" data-content-theme="d" id="Hours">
         <h3 id="todays_hours">Hours</h3>
         <p  id="p_todays_hours"></p>
@@ -188,9 +186,29 @@
     </div>
 
 
-    <div data-role="button" data-theme="e" data-mini="true" id="googleMapss" onClick=launchNativeMaps()>
-        <h3 id="eee">Google Maps Route</h3>
-        <!--<div id="googleMap" style="width:500px;height:380px;"></div>-->
+    <!--<div data-role="button" data-theme="e" data-mini="true"  onClick=launchNativeMaps()>-->
+        <!--<h3 id="eee">Google Maps Route</h3>-->
+        <!--&lt;!&ndash;<div id="googleMap" style="width:500px;height:380px;"></div>&ndash;&gt;-->
+    <!--</div>-->
+
+
+    <!--<select id="select-maps" data-theme="e" id="googleMapss">-->
+        <!--<option value="" data-placeholder="true">Google Maps Route: </option>-->
+        <!--<option value="Glendale">Glendale</option>-->
+        <!--<option value="Burbank">Burbank</option>-->
+        <!--<option value="Downey">Downey</option>-->
+
+    <!--</select>-->
+    <div style="margin-left:10px; margin-right:10px;">
+    <a href="#googleMapsMenu" data-rel="popup" data-role="button" data-theme="e" data-transition="pop"    style="margin-top:12px;">Google Maps Route:</a>
+    <!--<a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="gear" data-theme="e">Actions...</a>-->
+    <div data-role="popup" id="googleMapsMenu" data-theme="d">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
+            <li><a onClick=launchNativeMaps()>Glendale</a></li>
+            <li><a onClick=launchNativeMaps()>Burbank</a></li>
+            <li><a onClick=launchNativeMaps()>Downey</a></li>
+        </ul>
+    </div>
     </div>
 
     <!--<a href="https://maps.google.com/?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA">open map</a>-->
