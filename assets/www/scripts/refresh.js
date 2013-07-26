@@ -7,7 +7,6 @@
  */
 $(function() {
     $("#instaButton").click(function() {
-        alert("hello");
         $(location).attr('href',"instagram.html");
     });
 
