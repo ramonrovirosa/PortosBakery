@@ -74,8 +74,8 @@
                         if (status == google.maps.DirectionsStatus.OK) {
                             distanceToPortos = Math.floor(response.routes[0].legs[0].distance.value * 0.000621371);
                             timeToPortos = response.routes[0].legs[0].duration.text;
-                            $('#EstimatedDistance span.ui-btn-text').text("Distance to Porto's: " + distanceToPortos + " miles" );
-                            $('#EstimatedTime span.ui-btn-text').text("Estimated Trip Time: " + timeToPortos);
+                            $('#EstimatedDistance ').text("Distance to Porto's: " + distanceToPortos + " miles" );
+                            $('#EstimatedTime ').text("Estimated Trip Time: " + timeToPortos);
                             directionsDisplay.setDirections(response);
                         }
                     });
@@ -137,7 +137,7 @@
 
             $('#p_todays_hours').text(closeText);
 
-            var height = $('#Hours').height()*4 + 4*20 + $('#header').height();
+            var height = $('#Hours').height()*4 + 3*20 + $('#header').height();
             //alert(height);
 
             $("#googleMap").height($(document).height() - height);
@@ -179,11 +179,11 @@
         <p  id="p_todays_hours"></p>
     </div>
 
-    <div data-role="button" data-theme="e" data-mini="true" id="EstimatedTime">
+    <div id="EstimatedTime" style="text-align: center;">
         <h3 id="aaa">Estimated Time to Porto's</h3>
     </div>
 
-    <div data-role="button" data-theme="e" data-mini="true" id="EstimatedDistance">
+    <div id="EstimatedDistance"  style="text-align: center;" >
         <h3 id="cc">Distance to Porto's</h3>
     </div>
 

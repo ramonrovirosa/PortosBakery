@@ -4,8 +4,8 @@
     <list default="true" id="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" name="Default" comment="" />
     <ignored path="PortosBakery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374011288758" ignored="false" />
-    <file path="/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374021106820" ignored="false" />
+    <file path="/index.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374801013710" ignored="false" />
+    <file path="/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374801069779" ignored="false" />
     <file path="/test.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373405964095" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloGap/assets/www/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373396604975" ignored="false" />
     <file path="/contact.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373487442913" ignored="false" />
@@ -43,7 +43,7 @@
     <file path="$PROJECT_DIR$/../www.campuspointucsb.com/css/cpcss.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374021789267" ignored="false" />
     <file path="$PROJECT_DIR$/../www.campuspointucsb.com/magazine/spring2012/ebook/js/swfobject.js" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374021789267" ignored="false" />
     <file path="/refresh.js" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374799180376" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374799913905" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374801269941" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +63,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="31" selection-start="5423" selection-end="5428" vertical-scroll-proportion="-16.846153">
+            <state line="130" column="98" selection-start="4759" selection-end="4759" vertical-scroll-proportion="0.17021276">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="10" selection-start="217" selection-end="223" vertical-scroll-proportion="-6.12">
               <folding />
             </state>
           </provider>
@@ -76,15 +91,6 @@
         <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="58" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refresh.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="refresh.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/scripts/refresh.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.308779">
+            <state line="18" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,12 +149,12 @@
         <option value="$PROJECT_DIR$/assets/www/test.html" />
         <option value="$PROJECT_DIR$/assets/www/index.php" />
         <option value="$PROJECT_DIR$/assets/www/css/jquery.instastream.css" />
-        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/contact.html" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/instagram.html" />
         <option value="$PROJECT_DIR$/assets/www/menu.html" />
         <option value="$PROJECT_DIR$/assets/www/scripts/refresh.js" />
+        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
       </list>
     </option>
   </component>
@@ -460,7 +466,13 @@
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="179" column="95" selection-start="6608" selection-end="6608" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,33 +490,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.instastream.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="97" selection-start="729" selection-end="729" vertical-scroll-proportion="-0.65384614">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-12.423077">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,17 +508,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/scripts/refresh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="31" selection-start="5423" selection-end="5428" vertical-scroll-proportion="-16.846153">
+        <state line="18" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/scripts/refresh.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.308779">
+        <state line="38" column="274" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-12.423077">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/jquery.instastream.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="217" selection-end="223" vertical-scroll-proportion="-6.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="98" selection-start="4759" selection-end="4759" vertical-scroll-proportion="0.17021276">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
