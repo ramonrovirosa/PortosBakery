@@ -115,7 +115,7 @@
             //Not Sunday during bakery hours
             if(day>0){
                 if((hour >= 7 || (hour == 6 && minute >30)) && hour < 20)
-                    closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes until Porto's closes!";
+                    closeText = "You have " + tillClose + ' hours: ' + minutesTillClose +   " minutes until Porto's in Glendale closes!";
                 else
                     closeText = "Sorry Portos is closed.";
 
@@ -130,7 +130,6 @@
             }
 
 
-
             $('#todays_hours span.ui-btn-text').text("Today's Hours: " + hoursOfOperation);
             $('#todays_hours span.ui-btn-inner').attr('style', 'text-align:center');
 
@@ -143,8 +142,14 @@
             $("#googleMap").height($(document).height() - height);
 
         });
-        function launchNativeMaps(){
-            window.location = "geo: 34.150537, -118.255285?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA;";
+        function launchNativeMaps(location){
+            if(location ==  'Glendale')
+                window.location = "geo: 34.150537, -118.255285?q=315+N+Brand+BLVD,+GLENDALE,+CALIFORNIA;";
+            if(location ==  'Burbank')
+                window.location = "geo: 34.167330, -118.346356?q=3614+West+Magnolia+Boulevard,+Burbank,+CALIFORNIA;";
+            if(location ==  'Downey')
+                window.location = "geo: 33.940662, -118.133531?q=8233+FIRESTONE+BLVD,+DOWNEY,+CALIFORNIA;";
+
         }
 
 
@@ -204,9 +209,9 @@
     <!--<a href="#popupMenu" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="gear" data-theme="e">Actions...</a>-->
     <div data-role="popup" id="googleMapsMenu" data-theme="d">
         <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
-            <li><a onClick=launchNativeMaps()>Glendale</a></li>
-            <li><a onClick=launchNativeMaps()>Burbank</a></li>
-            <li><a onClick=launchNativeMaps()>Downey</a></li>
+            <li><a onClick=launchNativeMaps("Glendale")>Glendale</a></li>
+            <li><a onClick=launchNativeMaps("Burbank")>Burbank</a></li>
+            <li><a onClick=launchNativeMaps("Downey")>Downey</a></li>
         </ul>
     </div>
     </div>

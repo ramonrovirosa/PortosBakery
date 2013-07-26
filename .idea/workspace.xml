@@ -5,7 +5,7 @@
     <ignored path="PortosBakery.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374871925381" ignored="false" />
-    <file path="/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374872246082" ignored="false" />
+    <file path="/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374873079533" ignored="false" />
     <file path="/test.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373405964095" ignored="false" />
     <file path="$PROJECT_DIR$/../HelloGap/assets/www/index.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1373396604975" ignored="false" />
     <file path="/contact.html" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374868912375" ignored="false" />
@@ -43,7 +43,7 @@
     <file path="$PROJECT_DIR$/../www.campuspointucsb.com/css/cpcss.css" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374021789267" ignored="false" />
     <file path="$PROJECT_DIR$/../www.campuspointucsb.com/magazine/spring2012/ebook/js/swfobject.js" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374021789267" ignored="false" />
     <file path="/refresh.js" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374799180376" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374872322733" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a14f7f2c-3c72-46dd-b9e1-c7e4d724552c" time="1374873551392" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +68,25 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/www/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="130" column="0" selection-start="4757" selection-end="4757" vertical-scroll-proportion="0.0">
+                <state line="131" column="0" selection-start="4770" selection-end="4770" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="108" selection-start="434" selection-end="435" vertical-scroll-proportion="0.36480686">
+                <state line="20" column="108" selection-start="434" selection-end="435" vertical-scroll-proportion="-13.6">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="40" selection-start="955" selection-end="955" vertical-scroll-proportion="-13.076923">
+                <state line="61" column="31" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.6208378">
                   <folding>
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -117,7 +117,7 @@
           <file leaf-file-name="instagram.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="84" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0">
+                <state line="40" column="84" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-12.269231">
                   <folding />
                 </state>
               </provider>
@@ -139,7 +139,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/www/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="150" column="59" selection-start="5332" selection-end="5332" vertical-scroll-proportion="-0.5535714">
+                <state line="111" column="80" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.22330096">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -522,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="84" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/scripts/refresh.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="30" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
@@ -543,9 +536,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="108" selection-start="434" selection-end="435" vertical-scroll-proportion="-13.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/instagram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="84" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-12.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="955" selection-end="955" vertical-scroll-proportion="-13.076923">
+        <state line="61" column="31" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.6208378">
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -554,16 +561,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="108" selection-start="434" selection-end="435" vertical-scroll-proportion="0.36480686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="59" selection-start="5332" selection-end="5332" vertical-scroll-proportion="-0.5535714">
+        <state line="111" column="80" selection-start="4002" selection-end="4002" vertical-scroll-proportion="0.22330096">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
