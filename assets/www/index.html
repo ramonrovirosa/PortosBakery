@@ -74,8 +74,8 @@
                         if (status == google.maps.DirectionsStatus.OK) {
                             distanceToPortos = Math.floor(response.routes[0].legs[0].distance.value * 0.000621371);
                             timeToPortos = response.routes[0].legs[0].duration.text;
-                            $('#EstimatedDistance ').text("Distance to Porto's: " + distanceToPortos + " miles" );
-                            $('#EstimatedTime ').text("Estimated Trip Time: " + timeToPortos);
+                            $('#EstimatedTime').text("Estimated Trip Time: " + timeToPortos);
+                            $('#EstimatedDistance').text("Distance to Porto's: " + distanceToPortos + " miles" );
                             directionsDisplay.setDirections(response);
                         }
                     });
@@ -180,11 +180,11 @@
     </div>
 
     <div id="EstimatedTime" style="text-align: center;">
-        <h3 id="aaa">Estimated Time to Porto's</h3>
+        Calculating Estimated Trip Time:
     </div>
 
     <div id="EstimatedDistance"  style="text-align: center;" >
-        <h3 id="cc">Distance to Porto's</h3>
+        Calculating Distance to Porto's
     </div>
 
 
